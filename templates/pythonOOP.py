@@ -7,6 +7,7 @@ Credits:
 import rclpy
 from rclpy.node import Node
 
+
 class MyCustomNode(Node): # modify name
     def __init__(self):
         super().init("node_name") # modift name
