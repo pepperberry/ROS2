@@ -1,0 +1,32 @@
+[1.712s] Invoking command in '/home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/pkg2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/install/pkg2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pkg2 build --build-base /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/build install --record /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/install.log --single-version-externally-managed install_data
+[2.170s] running egg_info
+[2.171s] creating ../build/pkg2/pkg2.egg-info
+[2.191s] writing ../build/pkg2/pkg2.egg-info/PKG-INFO
+[2.191s] writing dependency_links to ../build/pkg2/pkg2.egg-info/dependency_links.txt
+[2.191s] writing requirements to ../build/pkg2/pkg2.egg-info/requires.txt
+[2.191s] writing top-level names to ../build/pkg2/pkg2.egg-info/top_level.txt
+[2.191s] writing manifest file '../build/pkg2/pkg2.egg-info/SOURCES.txt'
+[2.233s] reading manifest file '../build/pkg2/pkg2.egg-info/SOURCES.txt'
+[2.234s] writing manifest file '../build/pkg2/pkg2.egg-info/SOURCES.txt'
+[2.234s] running build
+[2.235s] running build_py
+[2.235s] creating /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/build
+[2.235s] creating /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/build/lib
+[2.235s] creating /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/build/lib/pkg2
+[2.235s] copying pkg2/__init__.py -> /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/build/lib/pkg2
+[2.235s] running install
+[2.243s] running install_lib
+[2.263s] creating /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/install/pkg2/lib/python3.12/site-packages/pkg2
+[2.264s] copying /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/build/lib/pkg2/__init__.py -> /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/install/pkg2/lib/python3.12/site-packages/pkg2
+[2.264s] byte-compiling /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/install/pkg2/lib/python3.12/site-packages/pkg2/__init__.py to __init__.cpython-312.pyc
+[2.265s] running install_data
+[2.265s] creating /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/install/pkg2/share/ament_index
+[2.265s] creating /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/install/pkg2/share/ament_index/resource_index
+[2.266s] creating /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/install/pkg2/share/ament_index/resource_index/packages
+[2.266s] copying resource/pkg2 -> /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/install/pkg2/share/ament_index/resource_index/packages
+[2.266s] copying package.xml -> /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/install/pkg2/share/pkg2
+[2.266s] running install_egg_info
+[2.289s] Copying ../build/pkg2/pkg2.egg-info to /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/install/pkg2/lib/python3.12/site-packages/pkg2-0.0.0-py3.12.egg-info
+[2.290s] running install_scripts
+[2.454s] writing list of installed files to '/home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/install.log'
+[2.490s] Invoked command in '/home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/pkg2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/install/pkg2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pkg2 build --build-base /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/build install --record /home/endr/Seattle University/Innovation-Lab/ROS2/jazzy/src/build/pkg2/install.log --single-version-externally-managed install_data
