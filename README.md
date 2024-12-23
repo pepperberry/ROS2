@@ -1,21 +1,65 @@
-# Introduction to ROS2 on RPi 5 🖱
+# Introduction to ROS2 with Raspberry Pi 5
 
 <p align="center">
     <br>
-    <img src="etc/gif/ROS2.gif" alt="GIF Image" width="300"/>
+    <img src="etc/img/SUSeal-1color.png" alt="GIF Image" width="275"/>
 </p>
 
-This repository acts as a guide for installing and configuring ROS2 on a Raspberry Pi 5 device running the Ubuntu 22.04+ LTS operating system.
+## About
+
+<p align="center">
+    <br>
+    <img src="etc/gif/ROS2.gif" alt="GIF Image" width="150"/>
+</p>
+
+[About](#about) • [Requirements](#requirements) • [Setup](#setup)
+
+This repository acts as a guide for installing and configuring ROS2 on a Raspberry Pi [RPi] 5 device running the Ubuntu 22.04+ LTS operating system.
+
+## Requirements
+
+In order for the setup.sh script to run without any configurations required, the following are required:
+
+- Raspberry Pi 5 (either 4 or 8 GB) with power source 
+- 16 GB (minimum) microSD card with Ubuntu latest LTS flash
+- Display device along with mouse + keyboard for the RPi
+
+### Congifuring the Ubuntu flash
+
+When configuring the settings for the microSD imager via the [Raspberry Pi imager](https://www.raspberrypi.com/software/), ensure that the __Ubuntu Desktop 24.xx LTS (64-bit)__ OS is selected and not the default Raspberry Pi OS. Also, set the _username_ of the RPi to "__test__". Without this change, you will need to edit the file location for sourcing the virtual enviornment among a few other commands.
 
 ## Setup
 
-The setup.sh script installs ROS2 and all of its required dependencies onto the local Raspberry Pi 5 device.
+After the initial setup of your RPi device and it is connected to a reliable internet source, clone this repository into the main RPi home folder. 
+
+```bash
+git clone git@github.com:SU-Innovation-Lab/ROS2.git
+```
+
+The setup.sh script installs ROS2 and all of its required dependencies onto the local Raspberry Pi 5 device. 
+
+<b style="color:red;">Note!</b> Upon successful completion of the setup.sh script, the RPi is expected to reboot. Once it starts back up, the 'ros2_venv' virtual enviornment should be activated and noted within the RPi terminal.
 
 ``` bash
 # From the ROS2 directory, migrate to the setup script
-cd "config"
+cd ROS2/config
 
 # Ensure that the setup.sh script is executable then execute it
 chmod +rwx setup.sh
 ./setup.sh
 ```
+
+## Directory
+
+### 📁 /config
+
+- __setup.sh__: This script installs ROS2 and all of its required dependencies onto the local Raspberry Pi 5 device. It sets up a Python virtual environment, installs necessary Python packages, and configures the system for ROS2.
+
+
+### 📁 /docs
+
+- __README.md__: This file. Provides an overview of the repository, setup instructions, and a directory of scripts and configuration files.
+
+### 📁 /etc
+
+This folder contains items (images, gifs, videos) used for visual purposes.
