@@ -12,7 +12,7 @@
     <img src="etc/gif/ROS2.gif" alt="GIF Image" width="150"/>
 </p>
 
-[About](#about) • [Requirements](#requirements) • [Setup](#setup)
+[About](#about) • [Requirements](#requirements) • [Setup](#setup) • [Directory](#directory)
 
 This repository acts as a guide for installing and configuring ROS2 on a Raspberry Pi [RPi] 5 device running the Ubuntu 22.04+ LTS operating system.
 
