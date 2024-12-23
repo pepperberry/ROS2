@@ -11,4 +11,4 @@ python -m pip install --upgrade pip
 python setup.py
 
 # Deactivate the virtual environment when done
-# deactivate
+deactivate
