@@ -38,7 +38,7 @@ git clone git@github.com:SU-Innovation-Lab/ROS2.git
 
 The setup.sh script installs ROS2 and all of its required dependencies onto the local Raspberry Pi 5 device. 
 
-<b style="color:red;">Note!</b> Upon successful completion of the setup.sh script, the RPi is expected to reboot. Once it starts back up, the 'ros2_venv' virtual enviornment should be activated and noted within the RPi terminal.
+<b style="color:red;">Note!</b> Upon successful completion of the setup.sh script, the RPi is expected to reboot. Once it starts back up, the 'ros2_venv' virtual enviornment should be activated and noted within the RPi terminal. You may need to hit the [Enter] key a few times during installation.
 
 ``` bash
 # From the ROS2 directory, migrate to the setup script

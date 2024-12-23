@@ -72,6 +72,9 @@ sudo apt install -y python3-colcon-common-extensions python3-rosdep python3-argc
 
 # 6. Initialize rosdep
 echo "Initializing rosdep..."
+if [ -f /etc/ros/rosdep/sources.list.d/20-default.list ]; then
+    sudo rm /etc/ros/rosdep/sources.list.d/20-default.list
+fi
 sudo rosdep init
 rosdep update
 
@@ -86,10 +89,18 @@ sudo apt install -y ros-jazzy-rmw-cyclonedds-cpp
 # 9. Set up permissions for GPIO, I2C, and other hardware interfaces (for Raspberry Pi)
 echo "Setting up hardware interface permissions..."
 sudo usermod -aG dialout $USER
-sudo groupadd gpio
-sudo usermod -aG gpio $USER
-sudo groupadd i2c
-sudo usermod -aG i2c $USER
+
+if ! getent group gpio > /dev/null; then
+    sudo groupadd gpio
+    sudo usermod -aG gpio $USER
+fi
+
+
+if ! getent group i2c > /dev/null; then
+    sudo groupadd i2c
+    sudo usermod -aG i2c $USER
+fi
+
 
 # 10. Reboot to apply all changes
 echo "Installation complete. Rebooting to apply changes..."
