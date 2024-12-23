@@ -49,6 +49,23 @@ chmod +rwx setup.sh
 ./setup.sh
 ```
 
+After the RPi starts back up and the ros2_venv enviornment is active, test that ROS2 has been correctly installed on the device by running the following commands in __two seperate terminal windows__:
+
+
+```bash
+# Talker terminal
+source /opt/ros/jazzy/setup.bash
+ros2 run demo_nodes_cpp talker
+```
+
+```bash
+# Listener terminal
+source /opt/ros/jazzy/setup.bash
+ros2 run demo_nodes_py listener
+```
+
+You should see the talker saying it's publishing messages and the listener saying it heard those messages showing both the C++ and Python APIs working properly.
+
 ## Directory
 
 ### 📁 /config
