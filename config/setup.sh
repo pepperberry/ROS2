@@ -36,7 +36,7 @@ else
   
   # Activate the existing virtual environment
   source "$VENV_DIR/bin/activate"
-  echo "source /home/test/ROS2/config/ros2_venv/bin/activate" >> ~/.bashrc
+  echo "source /home/pepper/ROS2/config/ros2_venv/bin/activate" >> ~/.bashrc
   source ~/.bashrc # activates ros2_venv from local .bashrc
 fi
 
