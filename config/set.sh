@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to your virtual environment
-VENV_PATH="/home/test/ROS2/config/ros2_venv"
+VENV_PATH="/home/pepper/ROS2/config/ros2_venv"
 
 # Activate the virtual environment
 source "$VENV_PATH/bin/activate"
